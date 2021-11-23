@@ -1,0 +1,218 @@
+:root {
+  --foreground: rgb(40, 40, 44);
+  --header-font: poppins, sans-serif;
+  --red: #ff3939;
+}
+
+.app {
+  text-align: center;
+  color: var(--foreground);
+}
+
+.main {
+  margin: 6rem auto;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 1px 1px 1.9px rgba(0, 0, 0, 0.019), 2.6px 2.6px 4.8px rgba(0, 0, 0, 0.027), 5.3px 5.3px 9.7px rgba(0, 0, 0, 0.033), 11px 11px 20.1px rgba(0, 0, 0, 0.041), 30px 30px 55px rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+  font-size: 30px;
+}
+
+.button {
+  padding: 1rem;
+  width: 30%;
+  background-color: var(--red);
+  color: white;
+  letter-spacing: 1.2pt;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10rem;
+  cursor: pointer;
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 1.4px 1.4px 3.2px rgba(0, 0, 0, 0.008), 3.3px 3.3px 7.7px rgba(0, 0, 0, 0.012), 6.3px 6.3px 14.1px rgba(0, 0, 0, 0.015), 11.2px 11.2px 23.9px rgba(0, 0, 0, 0.018), 20.9px 20.9px 40px rgba(0, 0, 0, 0.022), 50px 50px 80px rgba(0, 0, 0, 0.03);
+
+  &--secondary {
+    border: 1.2pt solid var(--red);
+    background-color: white;
+    color: var(--red);
+  }
+
+  &--icon {
+    background-color: white;
+    color: var(--foreground);
+    width: 70px;
+    border-radius: 10rem;
+    cursor: pointer;
+    padding: .8rem .4rem;
+    margin: .7rem;
+    font-size: 11px;
+  }
+
+  &--start-page {
+    margin-bottom: 3rem;
+  }
+}
+
+.start-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &--title {
+    margin-top: 3rem;
+  }
+
+  &--desc {
+    font-size: 14px;
+    max-width: 50%;
+  }
+}
+
+.quiz-page {
+  text-align: left;
+
+  &--top-bar {
+    background-color: var(--red);
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+  }
+
+  &--section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &--question {
+    margin-left: 3rem;
+    height: 300px;
+    max-width: 60%;
+
+    &--text {
+      font-size: 16px;
+      margin: 3rem 0 1rem 0;
+      height: 60px;
+    }
+  }
+
+  &--navigation {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    &--buttons {
+      display: flex;
+      width: 40%;
+    }
+  }
+
+  &--timer {
+    font-size: 13px;
+    font-family: var(--header-font);
+    color: var(--foreground);
+  }
+
+  &--lifeline {
+    background-color: var(--foreground);
+    box-shadow: 2px 4px 2px 0 rgba(0, 0, 0, 0.068), 0 6px 15px 0 rgba(0, 0, 0, 0.048);
+    border-radius: 1rem 0 0 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &--title {
+      margin: .7rem;
+      font-size: 14px;
+    }
+
+    &--desc {
+      text-align: center;
+      padding-bottom: 1rem;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: .3pt;
+    }
+
+    &--buttons-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.list-item {
+  font-size: 14px;
+  padding-bottom: .6rem;
+
+  &--label {
+    padding-left: .5rem;
+  }
+}
+
+.header {
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.small {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.hoverable:hover {
+  opacity: 90%;
+}
+
+.disabled {
+  opacity: 30%;
+  cursor: auto;
+}
+
+.summary-page {
+  margin-top: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+
+  &--title {
+    margin-bottom: 1rem;
+  }
+
+  &--text {
+    margin: 1rem 0;
+  }
+
+  &--correct-answers {
+    margin: 2rem 0;
+    font-size: 16px;
+    font-family: var(--header-font);
+    color: var(--red);
+  }
+
+  &--incorrect-answers {
+    margin: 2rem auto;
+    max-width: 75%;
+    font-size: 14px;
+  }
+}

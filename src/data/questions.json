@@ -1,0 +1,351 @@
+{
+    "data": {
+        "questions": [
+            {
+                "id": "1",
+                "question": "What is a common ingredient in apple pie?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Avokado"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Flour"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Vinegar"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Banana"
+                    }
+                ],
+                "correctAnswer": "A-2"
+            },
+            {
+                "id": "2",
+                "question": "In 2005, how many apples were grown worldwide?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "35 million tonnes"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "45 million tonnes"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "55 million tonnes"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "65 million tonnes"
+                    }
+                ],
+                "correctAnswer": "A-3"
+            },
+            {
+                "id": "3",
+                "question": "Which of these can the color of an apple indicate?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Whether the apple is ripe"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Whether the apple can be cut into smaller pieces"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Whether the apple is poisonous"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Whether the apple is a fake"
+                    }
+                ],
+                "correctAnswer": "A-1"
+            },
+            {
+                "id": "4",
+                "question": "Which Greek goddess is associated with an apple?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Pomona"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Artemis"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Discordia"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Eris"
+                    }
+                ],
+                "correctAnswer": "A-4"
+            },
+            {
+                "id": "5",
+                "question": "By combining apples with apple cider, what food is being made?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Applesauce"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Toffee apple"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Apple pie"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Caramel apple"
+                    }
+                ],
+                "correctAnswer": "A-2"
+            },
+            {
+                "id": "6",
+                "question": "What color are Granny Smith apples?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Red"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Green"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Blue"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Yellow"
+                    }
+                ],
+                "correctAnswer": "A-2"
+            },
+            {
+                "id": "7",
+                "question": "Where did the apple originate?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Switzerland"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Central Asia"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "The Himalayas"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Cupertino, California"
+                    }
+                ],
+                "correctAnswer": "A-2"
+            },
+            {
+                "id": "8",
+                "question": "When are most apples in season?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Spring"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Summer"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Autumn"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Winter"
+                    }
+                ],
+                "correctAnswer": "A-3"
+            },
+            {
+                "id": "9",
+                "question": "What colour are apple tree flowers?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Red"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "White"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Yellow"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Purple"
+                    }
+                ],
+                "correctAnswer": "A-2"
+            },
+            {
+                "id": "10",
+                "question": "Which of the following is NOT an apple cultivar?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Adams Pearmain"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Arkansas Black"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Richmal Busset"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Stayman Winesap"
+                    }
+                ],
+                "correctAnswer": "A-3"
+            },
+            {
+                "id": "11",
+                "question": "Apple Records was set up by which band?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "The Beatles"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "The Bonzo Dog Doo-Dah Band"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "The Kinks"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "The Crazy World of Arthur Brown"
+                    }
+                ],
+                "correctAnswer": "A-1"
+            },
+            {
+                "id": "12",
+                "question": "Which of the following drinks is made using apples?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Cointreau"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Perry"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Brandy"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Calvados"
+                    }
+                ],
+                "correctAnswer": "A-4"
+            },
+            {
+                "id": "13",
+                "question": "'Apples and pears' is a well-known Cockney phrase. What does it mean?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "Hairs"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "Chairs"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "Bears"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "Stairs"
+                    }
+                ],
+                "correctAnswer": "A-4"
+            },
+            {
+                "id": "14",
+                "question": "The heaviest apple was grown by Chisato Iwasaki in Japan in 2005. What did it weigh?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "0.948 kg"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "1.265 kg"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "1.849 kg"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "2.147 kg"
+                    }
+                ],
+                "correctAnswer": "A-3"
+            },
+            {
+                "id": "15",
+                "question": "When does an apple tree begin to bear fruit?",
+                "answers": [
+                    {
+                        "id": "A-1",
+                        "answerText": "2 to 3 years"
+                    },
+                    {
+                        "id": "A-2",
+                        "answerText": "4 to 5 years"
+                    },
+                    {
+                        "id": "A-3",
+                        "answerText": "6 to 8 years"
+                    },
+                    {
+                        "id": "A-4",
+                        "answerText": "10 to 12 years"
+                    }
+                ],
+                "correctAnswer": "A-3"
+            }
+        ]
+    }
+}

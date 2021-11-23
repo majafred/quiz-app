@@ -2,6 +2,10 @@
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the dependencies in the local node_modules folder neccessary to run the app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
